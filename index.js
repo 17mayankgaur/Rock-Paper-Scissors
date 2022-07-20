@@ -59,7 +59,7 @@ function visibility()
 
               if(playerScoreCounter > computerScoreCounter && playerScoreCounter === 20)
                 {
-                  console.log(`player wins`);
+//                   console.log(`player wins`);
                   player.classList.value='player   fa-solid fa-medal ';
                   computer.classList.value='computer fa-solid fa-ghost';
                   heading.textContent="🎉Congratualtions🎉 ↩️ press reset to play again";
@@ -68,7 +68,7 @@ function visibility()
                 }
               else if(playerScoreCounter < computerScoreCounter && computerScoreCounter === 20)
             {
-              console.log(`bot wins`);
+//               console.log(`bot wins`);
                 player.classList.value='player fa-solid fa-ghost';
                 heading.textContent="Better Luck Next Time😃↩️ press reset to play again";
               computer.classList.value='computer fa-solid fa-medal ';
